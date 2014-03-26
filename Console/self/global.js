@@ -36,12 +36,12 @@ xhong.event = {
 		}
 	},
 	pageX: function(event){
-		return event.pageX === undefinded ?
+		return event.pageX === undefined ?
 			event.clientX + (document.body.scrollLeft||document.documentElement.scrollLeft)
 			:event.pageY;
 	},
 	pageY: function(event){
-		return event.pageY === undefinded ?
+		return event.pageY === undefined ?
 			event.clientY + (document.body.scrollTop||document.documentElement.scrollTop)
 			:event.pageY;
 	}
