@@ -1,4 +1,4 @@
-if(typeof window.xhong === "undefinded"){
+if(typeof window.xhong === "undefined"){
 	window.xhong = {};
 }
 
